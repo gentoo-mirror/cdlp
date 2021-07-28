@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <repositories version="1.0">
-<repo priority="50" status="unofficial">
+<repo quality="experimental" status="unofficial">
 	<name>cdlp</name>
 	<description>Random/Custom ebuilds, no-(dbus,systemd,pam,polkit,elogind ...) stuff</description>
 	<homepage>https://codeberg.org/phranz/cdlp</homepage>
-	<owner>
+	<owner type="person">
 		<email>phranz@subfc.net</email>
 		<name>Francesco Palumbo</name>
 	</owner>
