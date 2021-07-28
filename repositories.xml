@@ -2,7 +2,7 @@
 <repositories version="1.0">
 <repo priority="50" status="unofficial">
 	<name>cdlp</name>
-	<description>Custom ebuilds & no-dbus ebuilds</description>
+	<description>Random/Custom ebuilds, no-(dbus,systemd,pam,polkit,elogind ...) stuff</description>
 	<homepage>https://codeberg.org/phranz/cdlp</homepage>
 	<owner>
 		<email>phranz@subfc.net</email>
