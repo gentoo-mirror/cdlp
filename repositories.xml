@@ -8,6 +8,6 @@
 		<email>phranz@subfc.net</email>
 		<name>Francesco Palumbo</name>
 	</owner>
-	<source type="git">git://codeberg.org/phranz/cdlp.git</source>
+	<source type="git">https://codeberg.org/phranz/cdlp.git</source>
 </repo>
 </repositories>
