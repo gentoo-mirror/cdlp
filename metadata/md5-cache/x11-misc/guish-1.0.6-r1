@@ -1,0 +1,15 @@
+BDEPEND=sys-devel/gnuconfig >=app-portage/elt-patches-20170815 || ( >=sys-devel/automake-1.16.2-r1:1.16 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
+DEFINED_PHASES=configure
+DEPEND=x11-libs/libX11 dev-qt/qtcore:5 dev-qt/qtwidgets:5 dev-qt/qtgui:5 webkit? ( dev-qt/qtnetwork:5 dev-qt/qtwebkit:5 ) embedded-control? ( x11-libs/libXtst )
+DESCRIPTION=A DSL and army knife to make and modify GUIs
+EAPI=7
+HOMEPAGE=https://codeberg.org/phranz/guish
+INHERIT=autotools
+IUSE=debug +embedded-control webkit +button +input +label +textblock editor +page +menu +tabpage +slider +splitter +progress +tree +trayicon +menubar +checkbox +icon +spinbox +listbox +grip
+KEYWORDS=~amd64
+LICENSE=GPL-3
+RDEPEND=x11-libs/libX11 dev-qt/qtcore:5 dev-qt/qtwidgets:5 dev-qt/qtgui:5 webkit? ( dev-qt/qtnetwork:5 dev-qt/qtwebkit:5 ) embedded-control? ( x11-libs/libXtst )
+SLOT=0
+SRC_URI=https://codeberg.org/phranz/guish/archive/1.0.6-r1.tar.gz -> guish-1.0.6-r1.tar.gz
+_eclasses_=gnuconfig	262062cef0ba4f22b397193da514a350	toolchain-funcs	9ea1c67b6f8315fdc2568abb674519aa	multilib	97566c1a256d07b00848aa767e38a352	libtool	241a8f577b9781a42a7421e53448a44e	autotools	2a36908d5f63f41614b450a2459567da
+_md5_=a2ea0a731a68b4c3a605360e8a383115
