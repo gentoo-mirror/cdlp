@@ -1,3 +1,4 @@
+app-misc/bftxt 0.1.1-r3: A simple text to brainfuck code converter
 gnome-extra/yad 7.3: A tool for creating graphical dialogs from shell scripts. Fork of zenity.
 virtual/freedesktop-icon-theme 0-r4: Virtual to choose between different icon themes
 x11-libs/gtk+ 2.24.33 3.24.29: Gimp ToolKit +

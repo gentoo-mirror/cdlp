@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=A simple text to brainfuck code converter
+EAPI=7
+HOMEPAGE=https://codeberg.org/phranz/bftxt
+KEYWORDS=amd64
+LICENSE=GPL-3
+SLOT=0
+SRC_URI=https://codeberg.org/phranz/bftxt/archive/0.1.1-r3.tar.gz -> bftxt-0.1.1-r3.tar.gz
+_md5_=4b8cace4cfaf8e2d7b30a621fa775e80
