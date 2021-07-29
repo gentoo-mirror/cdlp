@@ -45,34 +45,29 @@ RDEPEND="
 DEPEND="${RDEPEND}"
 
 src_configure() {
-	econf
-	./configure \
-		--host=${CHOST} \
-		--prefix=/usr \
-		--infodir=/usr/share/info \
-		--mandir=/usr/share/man \
-		$(use debug && "echo --enable-debug") \
-		$(use embedded-control && "echo --enable-embedded-control") \
-		$(use webkit && "echo --enable-webkit") \
-		$(use button && "echo --enable-button") \
-		$(use input && "echo --enable-input") \
-		$(use label && "echo --enable-label") \
-		$(use textblock && "echo --enable-textblock") \
-		$(use editor && "echo --enable-editor") \
-		$(use page && "echo --enable-page") \
-		$(use menu && "echo --enable-menu") \
-		$(use tabpage && "echo --enable-tabpage") \
-		$(use slider && "echo --enable-slider") \
-		$(use splitter && "echo --enable-splitter") \
-		$(use progress && "echo --enable-progress") \
-		$(use tree && "echo --enable-tree") \
-		$(use trayicon && "echo --enable-trayicon") \
-		$(use menubar && "echo --enable-menubar") \
-		$(use checkbox && "echo --enable-checkbox") \
-		$(use icon && "echo --enable-icon") \
-		$(use spinbox && "echo --enable-spinbox") \
-		$(use listbox && "echo --enable-listbox") \
-		$(use grip && "echo --enable-grip") \
+	econf \
+		$(use debug && echo "--enable-debug") \
+		$(use embedded-control && echo "--enable-embedded-control") \
+		$(use webkit && echo "--enable-webkit") \
+		$(use button && echo "--enable-button") \
+		$(use input && echo "--enable-input") \
+		$(use label && echo "--enable-label") \
+		$(use textblock && echo "--enable-textblock") \
+		$(use editor && echo "--enable-editor") \
+		$(use page && echo "--enable-page") \
+		$(use menu && echo "--enable-menu") \
+		$(use tabpage && echo "--enable-tabpage") \
+		$(use slider && echo "--enable-slider") \
+		$(use splitter && echo "--enable-splitter") \
+		$(use progress && echo "--enable-progress") \
+		$(use tree && echo "--enable-tree") \
+		$(use trayicon && echo "--enable-trayicon") \
+		$(use menubar && echo "--enable-menubar") \
+		$(use checkbox && echo "--enable-checkbox") \
+		$(use icon && echo "--enable-icon") \
+		$(use spinbox && echo "--enable-spinbox") \
+		$(use listbox && echo "--enable-listbox") \
+		$(use grip && echo "--enable-grip") \
 		|| die
 }
 
