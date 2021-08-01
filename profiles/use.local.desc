@@ -2,6 +2,11 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
+net-libs/webkit-gtk:egl - Enable EGL support
+net-libs/webkit-gtk:examples - Install the MiniBrowser example application
+net-libs/webkit-gtk:gamepad - Enable gamepad input support via dev-libs/libmanette
+net-libs/webkit-gtk:geolocation - Enable geolocation support through app-misc/geoclue
+net-libs/webkit-gtk:jumbo-build - Combine source files to speed up build process
 x11-libs/gtk+:adwaita-icon-theme - Force the adwaita-icon-theme
 x11-libs/gtk+:atk-bridge - Enable the gtk3-atk-bridge, hard depending on app-accessibility/at-spi2-atk and thus on sys-apps/dbus
 x11-libs/gtk+:broadway - Enable the GDK Broadway backend.
