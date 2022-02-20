@@ -3,4 +3,4 @@ gnome-extra/yad 7.3: A tool for creating graphical dialogs from shell scripts. F
 net-libs/webkit-gtk 2.32.1: Open source web browser engine
 virtual/freedesktop-icon-theme 0-r4: Virtual to choose between different icon themes
 x11-libs/gtk+ 2.24.33 3.24.29: Gimp ToolKit +
-x11-misc/guish 1.0.6-r1: A DSL and army knife to make and modify GUIs
+x11-misc/guish 1.0.6-r1 1.0.6-r3: A DSL and army knife to make and modify GUIs
