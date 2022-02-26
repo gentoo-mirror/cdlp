@@ -26,7 +26,7 @@ LICENSE="GPL-3"
 SLOT="0"
 KEYWORDS="amd64"
 S="${WORKDIR}/guish"
-IUSE="debug +embedded-control +webkit +button +input +label +textblock +editor +page +menu +tabpage +slider +splitter +progress +tree +trayicon +menubar +checkbox +icon +spinbox +listbox +grip"
+IUSE="debug +embedded-control webkit +button +input +label +textblock +editor +page +menu +tabpage +slider +splitter +progress +tree +trayicon +menubar +checkbox +icon +spinbox +listbox +grip"
 
 RDEPEND="
 	x11-libs/libX11
