@@ -1,7 +1,6 @@
 app-misc/bftxt 0.1.1-r3: A simple text to brainfuck code converter
 dev-qt/qtwebkit 5.212.9999: WebKit rendering library for the Qt5 framework (deprecated)
 gnome-extra/yad 7.3: A tool for creating graphical dialogs from shell scripts. Fork of zenity.
-net-libs/webkit-gtk 2.32.1: Open source web browser engine
 virtual/freedesktop-icon-theme 0-r4: Virtual to choose between different icon themes
 x11-libs/gtk+ 2.24.33 3.24.29: Gimp ToolKit +
 x11-misc/guish 1.0.6-r1 1.0.6-r3: A DSL and army knife to make and modify GUIs
